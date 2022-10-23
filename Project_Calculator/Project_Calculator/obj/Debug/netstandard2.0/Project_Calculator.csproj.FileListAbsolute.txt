@@ -1,0 +1,15 @@
+D:\L6_SD\Project_Calculator\Project_Calculator\Project_Calculator\bin\Debug\netstandard2.0\Project_Calculator.deps.json
+D:\L6_SD\Project_Calculator\Project_Calculator\Project_Calculator\bin\Debug\netstandard2.0\Project_Calculator.dll
+D:\L6_SD\Project_Calculator\Project_Calculator\Project_Calculator\bin\Debug\netstandard2.0\ref\Project_Calculator.dll
+D:\L6_SD\Project_Calculator\Project_Calculator\Project_Calculator\bin\Debug\netstandard2.0\Project_Calculator.pdb
+D:\L6_SD\Project_Calculator\Project_Calculator\Project_Calculator\obj\Debug\netstandard2.0\Project_Calculator.csproj.AssemblyReference.cache
+D:\L6_SD\Project_Calculator\Project_Calculator\Project_Calculator\obj\Debug\netstandard2.0\Project_Calculator.GeneratedMSBuildEditorConfig.editorconfig
+D:\L6_SD\Project_Calculator\Project_Calculator\Project_Calculator\obj\Debug\netstandard2.0\App.xaml.g.cs
+D:\L6_SD\Project_Calculator\Project_Calculator\Project_Calculator\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+D:\L6_SD\Project_Calculator\Project_Calculator\Project_Calculator\obj\Debug\netstandard2.0\Project_Calculator.AssemblyInfoInputs.cache
+D:\L6_SD\Project_Calculator\Project_Calculator\Project_Calculator\obj\Debug\netstandard2.0\Project_Calculator.AssemblyInfo.cs
+D:\L6_SD\Project_Calculator\Project_Calculator\Project_Calculator\obj\Debug\netstandard2.0\Project_Calculator.csproj.CoreCompileInputs.cache
+D:\L6_SD\Project_Calculator\Project_Calculator\Project_Calculator\obj\Debug\netstandard2.0\XamlC.stamp
+D:\L6_SD\Project_Calculator\Project_Calculator\Project_Calculator\obj\Debug\netstandard2.0\Project_Calculator.dll
+D:\L6_SD\Project_Calculator\Project_Calculator\Project_Calculator\obj\Debug\netstandard2.0\ref\Project_Calculator.dll
+D:\L6_SD\Project_Calculator\Project_Calculator\Project_Calculator\obj\Debug\netstandard2.0\Project_Calculator.pdb
