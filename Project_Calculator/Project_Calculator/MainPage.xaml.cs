@@ -33,7 +33,7 @@ namespace Project_Calculator
 
 			this.resultText.Text += pressed;
 
-		double number;
+		    double number;
 			if (double.TryParse(this.resultText.Text, out number))
 			{
 				this.resultText.Text = number.ToString("N0");
@@ -63,6 +63,7 @@ namespace Project_Calculator
 		{
 			firstNum = 0;
 			secondNum = 0;
+			mathOp = " ";
 			currentState = 1;
 			this.resultText.Text = "0";
 			this.formulaText.Text = "0";
