@@ -8,6 +8,7 @@ namespace Project_Calculator
     {
         public static double Calculate(double value1, double value2, string mathOp)
         {
+
             double result = 0;
 
             switch (mathOp)

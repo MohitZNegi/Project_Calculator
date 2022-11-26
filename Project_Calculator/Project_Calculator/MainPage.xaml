@@ -3,28 +3,6 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Project_Calculator.MainPage">
 
-  
-        <!--
-        <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
-            <Label Text="hello" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
-        </Frame>
-        <Label Text="Start developing now" FontSize="Title" Padding="30,10,30,10"/>
-        <Label Text="Make changes to your XAML file and save to see your UI update in the running app with XAML Hot Reload. Give it a try!" FontSize="16" Padding="30,0,30,0"/>
-        <Label FontSize="16" Padding="30,24,30,0">
-            <Label.FormattedText>
-                <FormattedString>
-                    <FormattedString.Spans>
-                        <Span Text="Learn more at "/>
-                        <Span Text="https://aka.ms/xamarin-quickstart" FontAttributes="Bold"/>
-                    </FormattedString.Spans>
-                </FormattedString>
-            </Label.FormattedText>
-        </Label> -->
-
-
-
-
-
 
     <Grid BackgroundColor="#1E5631">
 
@@ -48,11 +26,11 @@
         <!--Display Area-->
         <StackLayout Grid.ColumnSpan="4" BackgroundColor="#AFF4C6" >
         <Label x:Name="formulaText" FontSize="24" FontAttributes="Bold"  Text="0"
-              TextColor="red" HorizontalTextAlignment="End" VerticalTextAlignment="Center"
+              TextColor="red" HorizontalTextAlignment="End" VerticalTextAlignment="End"
               LineBreakMode="NoWrap" />
 
         <Label x:Name="resultText" FontSize="48" FontAttributes="Bold" Text="1"
-              TextColor="White" HorizontalTextAlignment="End" VerticalTextAlignment="Center"
+              TextColor="Black" HorizontalTextAlignment="End" VerticalTextAlignment="End"
               LineBreakMode="NoWrap" />
 
         </StackLayout>
@@ -64,14 +42,14 @@
                 FontSize="36" BorderRadius="30" Clicked="Clear" />
             <!--positive and negative Button-->
             <Button Text="+/-" Grid.Row="1" Grid.Column="1"
-                BackgroundColor="#AFF4C6" TextColor="White"
-                FontSize="36" BorderRadius="30" Clicked="Plus_Minus" />
+                BackgroundColor="#AFF4C6" TextColor="Black"
+                FontSize="36" BorderRadius="30"  Clicked="Plus_Minus"/>
             <!--Percentage Button-->
-            <Button Text="%" Grid.Row="1" Grid.Column="2"
-                BackgroundColor="#AFF4C6" TextColor="White"
-                FontSize="36" BorderRadius="30" Clicked="Percentage" />
+        <Button Text="%" Grid.Row="1" Grid.Column="2"
+                BackgroundColor="#AFF4C6" TextColor="Black"
+                FontSize="36" BorderRadius="30" Clicked="Percentage"/>
 
-             <!--Number Buttons-->
+        <!--Number Buttons-->
             <Button Text="7" Grid.Row="2" Grid.Column="0"
                BackgroundColor="#BDE3FF" TextColor="Black"
                FontSize="36" BorderRadius="30" Clicked="OnSelectNum" />
@@ -100,7 +78,7 @@
                BackgroundColor="#BDE3FF" TextColor="Black"
                FontSize="36" BorderRadius="30" Clicked="OnSelectNum" />
             <Button Text="0" Grid.Row="5" Grid.Column="0" Grid.ColumnSpan="2"
-               BackgroundColor="#BDE3FF" TextColor="White"
+               BackgroundColor="#BDE3FF" TextColor="Black"
                FontSize="36" BorderRadius="30" Clicked="OnSelectNum" />
 
             <!-- Math Operator buttons-->
@@ -119,7 +97,7 @@
             
             <!--Decimal Button-->
             <Button Text="." Grid.Row="5" Grid.Column="2" 
-                BackgroundColor="#BDE3FF" TextColor="White"
+                BackgroundColor="#BDE3FF" TextColor="Black"
                 FontSize="36" BorderRadius="30" Clicked="Calculate" />
             <!--Calculate Button-->
             <Button Text="=" Grid.Row="5" Grid.Column="3" 
