@@ -13,13 +13,15 @@ namespace Project_Calculator
         int currentState = 1;
         string mathOp;
         double firstNum, secondNum;
+	
 
 
 		public MainPage()
         {
             InitializeComponent();
 			Clear(this, null);
-        }
+			
+		}
 	
 		void OnSelectNum(object sender, EventArgs e) //this method is called when a number button is pressed
 		{
@@ -37,6 +39,7 @@ namespace Project_Calculator
 	
 
 		    double number;
+	
 			if (double.TryParse(this.resultText.Text, out number))
 			{
 				this.resultText.Text = number.ToString("N0");
@@ -44,11 +47,9 @@ namespace Project_Calculator
 				{
 					firstNum = number;
 					this.formulaText.Text = number.ToString(firstNum + "");
+					
 				}
-				else if(currentState > 1)
-                {
-					this.formulaText.Text = number.ToString(firstNum + mathOp);
-				}
+				
 				else
 				{
 					secondNum = number;
@@ -63,10 +64,20 @@ namespace Project_Calculator
 
 		void OnSelectOp(object sender, EventArgs e) //this method is called when an operator button is pressed
 		{
+			
 			currentState = -2;
 			Button button = (Button)sender;
 			string pressed = button.Text;
 			mathOp = pressed;
+			double number;
+			if (double.TryParse(this.resultText.Text, out number))
+			{
+				if (currentState == -2)
+                {
+					this.formulaText.Text = number.ToString(firstNum + mathOp);
+				}
+				
+			}
 		}
 
 		void Clear(object sender, EventArgs e) //this method is called when C button is pressed

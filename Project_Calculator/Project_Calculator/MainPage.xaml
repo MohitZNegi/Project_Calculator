@@ -25,7 +25,8 @@
 
         <!--Display Area-->
         <StackLayout Grid.ColumnSpan="4" BackgroundColor="#AFF4C6" >
-        <Label x:Name="formulaText" FontSize="24" FontAttributes="Bold"  Text="0"
+
+            <Label x:Name="formulaText" FontSize="24" FontAttributes="Bold"  Text="0"
               TextColor="red" HorizontalTextAlignment="End" VerticalTextAlignment="End"
               LineBreakMode="NoWrap" />
 
